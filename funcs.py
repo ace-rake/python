@@ -1,4 +1,14 @@
 import json
+from retrying import retry
+
+def retry_if_failed(response):
+    return response.status_code != 200
+
+
+@retry(retry_on_result=retry_if_failed, stop_max_attempt_number=5, wait_fixed=2000)
+def get_one(oauth, url, params):
+    response = oauth.get(url, params=params)
+    return response
 
 
 def get_all(oauth, url, params):
@@ -8,16 +18,12 @@ def get_all(oauth, url, params):
     while True:
         print('Page %s' % page)
         params['page[number]'] = page
-        response = oauth.get(url, params=params)
-        if response.status_code != 200:
-            print('Failed to retrieve data')
-            break
+        response = get_one(oauth, url, params)
         data = response.json()
         if not data:
             break  # No more data to fetch
         users.extend(data)
         page += 1
-        # print(page)
     return users
 
 
@@ -29,6 +35,19 @@ def print_pretty_json(data):
         print("Error: Provided data is not valid JSON. %s" % e)
     except Exception as e:
         print("An unexpected error occurred: %s" % e)
+
+
+def sort_json_data(data, field):
+    try:
+        # Assuming data is a list of dictionaries
+        sorted_data = sorted(data, key=lambda x: x[field])
+        return sorted_data
+    except KeyError:
+        print("Error: Field '%s' not found in the data." % field)
+        return data
+    except TypeError as e:
+        print("Error: Data is not a list of dictionaries. %s" % e)
+        return data
 
 
 def filter(json, field, value):
@@ -81,7 +100,7 @@ def print_users_campus(oauth):
               'cursus_id': 65,
               }
     users = get_all(oauth, url, params)
-    # users = oauth.get(url, params=params).json()
+    # users = get_one(oauth, url, params=params).json()
     for user in users:
         if user['active?'] is True:
             # print('Login : %s,\tPool year %s,\tPool month %s,\tId %s' % (user['login'], user['pool_year'], user['pool_month'], user['id']))
@@ -110,13 +129,12 @@ def print_user(oauth, id):
     url = 'https://api.intra.42.fr/v2/cursus/21/cursus_users'
 
     params = {
-            'page[size]': 100,
+            'page[size]': 1,
             'filter[user_id]': id,
-            # 'range[pool_year]': '2023, 2024',
             'cursus_id': 65,
             'filter[campus_id]': 12,
             }
-    user = oauth.get(url, params=params).json()
+    user = get_one(oauth, url, params=params).json()
     print_pretty_json(user)
     return user
 
@@ -126,7 +144,7 @@ def print_cursusses(oauth):
 
     params = {'page[size]': 100,
               }
-    response = oauth.get(url, params=params)
+    response = get_one(oauth, url, params=params)
     if response.status_code != 200:
         print('Failed: print cursusses')
         return
@@ -145,7 +163,7 @@ def get_user_piscine_pals(oauth, first_name, last_name):
               'filter[last_name]': last_name,
               'cursus_id': 65,
               }
-    response = oauth.get(url, params=params)
+    response = get_one(oauth, url, params=params)
     if response.status_code != 200:
         print('failed to retrieve person')
         return []
@@ -160,13 +178,40 @@ def get_user_piscine_pals(oauth, first_name, last_name):
 
     params = {
               'page[size]': 100,
-              'range[pool_year]': '2023, 2024',
-              'range[pool_month]': 'july,march',
+              'range[pool_year]': '%s, %s' % (pool_year, pool_year),
+              'range[pool_month]': '%s,%s' % (pool_month, pool_month),
               'cursus_id': 65,
               }
     users = get_all(oauth, url, params)
+    pool_ids = []
     for user in users:
         if user['active?'] is True:
-            print('Login : %s,\tPool year %s,\tPool month %s,\tId %s' % (user['login'], user['pool_year'], user['pool_month'], user['id']))
-            # print(user)
-            # print_pretty_json(user)
+            pool_ids.append(user['id'])
+    url = 'https://api.intra.42.fr/v2/cursus/21/cursus_users'
+    params = {
+            'page[size]': 1,
+            'cursus_id': 65,
+            'filter[campus_id]': 12,
+            }
+    users = []
+    for id in pool_ids:
+        params['filter[user_id]'] = id
+        response = get_one(oauth, url, params).json()
+        users.append(response)
+        print('login %s\tlvl %s' % (
+            response[0]['user']['login'],
+            response[0]['level']
+            )
+              )
+
+    print('sorted')
+
+    def get_level(user):
+        return int(user[0]['level'])
+    users.sort(key=get_level)
+    for user in users:
+        print('login %s\tlvl %s' % (
+            user[0]['user']['login'],
+            user[0]['level']
+            )
+              )
