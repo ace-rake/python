@@ -30,8 +30,8 @@ token = oauth.fetch_token(token_url=token_url,
 
 # funcs.print_campusses(oauth)
 # funcs.print_users_campus(oauth)
-funcs.get_user_piscine_pals(oauth, 'victor', 'denissen')
+funcs.get_user_piscine_pals(oauth, 'cedric', 'bouwen')
 # print('\n')
-# funcs.print_users_cursus(oauth)
-# funcs.print_user(oauth, 145793)
+# funcs.print_users_cursus(oauth, 178529)
+# funcs.print_user(oauth, 168900)
 # funcs.print_cursusses(oauth)

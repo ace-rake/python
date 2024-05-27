@@ -1,4 +1,5 @@
 import json
+import os
 from retrying import retry
 
 def retry_if_failed(response):
@@ -35,19 +36,6 @@ def print_pretty_json(data):
         print("Error: Provided data is not valid JSON. %s" % e)
     except Exception as e:
         print("An unexpected error occurred: %s" % e)
-
-
-def sort_json_data(data, field):
-    try:
-        # Assuming data is a list of dictionaries
-        sorted_data = sorted(data, key=lambda x: x[field])
-        return sorted_data
-    except KeyError:
-        print("Error: Field '%s' not found in the data." % field)
-        return data
-    except TypeError as e:
-        print("Error: Data is not a list of dictionaries. %s" % e)
-        return data
 
 
 def filter(json, field, value):
@@ -108,12 +96,12 @@ def print_users_campus(oauth):
             print_pretty_json(user)
 
 
-def print_users_cursus(oauth):
+def print_users_cursus(oauth, id):
     url = 'https://api.intra.42.fr/v2/cursus/21/cursus_users'
 
     params = {
             'page[size]': 100,
-            # 'filter[user_id]': 145793,
+            'filter[user_id]': id,
             'cursus_id': 65,
             'sort': 'level',
             'filter[campus_id]': 12,
@@ -122,7 +110,8 @@ def print_users_cursus(oauth):
     filtered_data = filter_v2(users, 'user', 'pool_month', 'march')
     filtered_data = filter_v2(filtered_data, 'user', 'pool_year', '2023')
     for user in filtered_data:
-        print('Name %s,\tlvl %s,\t Active ? %s' % (user['user']['login'], user['level'], user['user']['active?']))
+        # print('Name %s,\tlvl %s,\t Active ? %s' % (user['user']['login'], user['level'], user['user']['active?']))
+        print_pretty_json(user)
 
 
 def print_user(oauth, id):
@@ -154,6 +143,16 @@ def print_cursusses(oauth):
         # print(cursus)
 
 
+def store_to_file(data, filePath):
+    if os.path.exists(filePath):
+        with open(filePath, 'r') as file:
+            data = json.load(file).append(data)
+    with open(filePath, 'w') as file:
+        json.dump(data, file, indent=4)
+
+
+# gets all users from the same piscine as {first_name last_name}
+# and prints them in order of level
 def get_user_piscine_pals(oauth, first_name, last_name):
     url = 'https://api.intra.42.fr/v2/campus/12/users'
 
@@ -204,14 +203,25 @@ def get_user_piscine_pals(oauth, first_name, last_name):
             )
               )
 
-    print('sorted')
+    print('sorted by level')
 
     def get_level(user):
-        return int(user[0]['level'])
+        return float(user[0]['level'])
     users.sort(key=get_level)
     for user in users:
         print('login %s\tlvl %s' % (
             user[0]['user']['login'],
             user[0]['level']
+            )
+              )
+    print('sorted by wallet')
+
+    def get_wallet(user):
+        return int(user[0]['user']['wallet'])
+    users.sort(key=get_wallet)
+    for user in users:
+        print('login %s\tWallet %s' % (
+            user[0]['user']['login'],
+            user[0]['user']['wallet']
             )
               )
