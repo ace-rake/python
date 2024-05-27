@@ -1,0 +1,91 @@
+{
+    "begin_at": "2023-04-03T07:00:00.000Z", 
+    "level": 5.19, 
+    "grade": "Learner", 
+    "cursus_id": 21, 
+    "updated_at": "2023-04-03T06:48:32.876Z", 
+    "end_at": null, 
+    "skills": [
+        {
+            "level": 4.84, 
+            "id": 3, 
+            "name": "Rigor"
+        }, 
+        {
+            "level": 4.65, 
+            "id": 2, 
+            "name": "Imperative programming"
+        }, 
+        {
+            "level": 4.11, 
+            "id": 17, 
+            "name": "Object-oriented programming"
+        }, 
+        {
+            "level": 4.0, 
+            "id": 1, 
+            "name": "Algorithms & AI"
+        }, 
+        {
+            "level": 3.35, 
+            "id": 10, 
+            "name": "Network & system administration"
+        }, 
+        {
+            "level": 3.23, 
+            "id": 5, 
+            "name": "Graphics"
+        }, 
+        {
+            "level": 3.19, 
+            "id": 4, 
+            "name": "Unix"
+        }
+    ], 
+    "user": {
+        "last_name": "Denissen", 
+        "alumni?": false, 
+        "image": {
+            "link": "https://cdn.intra.42.fr/users/e078826447572d61d5468fe5392cc127/vdenisse.jpg", 
+            "versions": {
+                "large": "https://cdn.intra.42.fr/users/79cd8cec3303c843c6c64db8c34da8cb/large_vdenisse.jpg", 
+                "small": "https://cdn.intra.42.fr/users/133650f94d609f3dd8c4a3d124e951a5/small_vdenisse.jpg", 
+                "medium": "https://cdn.intra.42.fr/users/3570967d5eb587dd6f766d49ae02e9ea/medium_vdenisse.jpg", 
+                "micro": "https://cdn.intra.42.fr/users/b02da9380448967ea953942666851106/micro_vdenisse.jpg"
+            }
+        }, 
+        "updated_at": "2024-05-27T07:43:20.815Z", 
+        "pool_month": "march", 
+        "id": 145793, 
+        "first_name": "Victor", 
+        "location": "a2-r4-p5", 
+        "usual_first_name": null, 
+        "email": "vdenisse@student.s19.be", 
+        "displayname": "Victor Denissen", 
+        "usual_full_name": "Victor Denissen", 
+        "data_erasure_date": "2027-05-27T00:00:00.000+02:00", 
+        "pool_year": "2023", 
+        "active?": true, 
+        "alumnized_at": null, 
+        "phone": "hidden", 
+        "anonymize_date": "2027-05-27T00:00:00.000+02:00", 
+        "kind": "student", 
+        "url": "https://api.intra.42.fr/v2/users/vdenisse", 
+        "created_at": "2023-02-17T13:53:18.764Z", 
+        "wallet": 170, 
+        "correction_point": 32, 
+        "staff?": false, 
+        "login": "vdenisse"
+    }, 
+    "blackholed_at": "2024-09-07T07:00:00.000Z", 
+    "cursus": {
+        "kind": "main", 
+        "created_at": "2019-07-29T08:45:17.896Z", 
+        "id": 21, 
+        "slug": "42cursus", 
+        "name": "42cursus"
+    }, 
+    "created_at": "2023-03-28T14:42:19.135Z", 
+    "has_coalition": true, 
+    "id": 211957
+}

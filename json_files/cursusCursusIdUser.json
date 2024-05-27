@@ -1,0 +1,37 @@
+[
+    {
+        "last_name": "Denissen", 
+        "alumni?": false, 
+        "image": {
+            "link": "https://cdn.intra.42.fr/users/e078826447572d61d5468fe5392cc127/vdenisse.jpg", 
+            "versions": {
+                "large": "https://cdn.intra.42.fr/users/79cd8cec3303c843c6c64db8c34da8cb/large_vdenisse.jpg", 
+                "small": "https://cdn.intra.42.fr/users/133650f94d609f3dd8c4a3d124e951a5/small_vdenisse.jpg", 
+                "medium": "https://cdn.intra.42.fr/users/3570967d5eb587dd6f766d49ae02e9ea/medium_vdenisse.jpg", 
+                "micro": "https://cdn.intra.42.fr/users/b02da9380448967ea953942666851106/micro_vdenisse.jpg"
+            }
+        }, 
+        "updated_at": "2024-05-27T07:43:20.815Z", 
+        "pool_month": "march", 
+        "id": 145793, 
+        "first_name": "Victor", 
+        "location": "a2-r4-p5", 
+        "usual_first_name": null, 
+        "email": "vdenisse@student.s19.be", 
+        "displayname": "Victor Denissen", 
+        "usual_full_name": "Victor Denissen", 
+        "data_erasure_date": "2027-05-27T00:00:00.000+02:00", 
+        "pool_year": "2023", 
+        "active?": true, 
+        "alumnized_at": null, 
+        "phone": "hidden", 
+        "anonymize_date": "2027-05-27T00:00:00.000+02:00", 
+        "kind": "student", 
+        "url": "https://api.intra.42.fr/v2/users/vdenisse", 
+        "created_at": "2023-02-17T13:53:18.764Z", 
+        "wallet": 170, 
+        "correction_point": 32, 
+        "staff?": false, 
+        "login": "vdenisse"
+    }
+]

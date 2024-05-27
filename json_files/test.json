@@ -1,0 +1,1151 @@
+[
+    [
+        {
+            "begin_at": "2023-04-03T08:00:00.000Z", 
+            "level": 2.99, 
+            "grade": "Learner", 
+            "cursus_id": 21, 
+            "updated_at": "2023-03-28T15:28:47.487Z", 
+            "end_at": null, 
+            "skills": [
+                {
+                    "level": 3.23, 
+                    "id": 1, 
+                    "name": "Algorithms & AI"
+                }, 
+                {
+                    "level": 2.84, 
+                    "id": 3, 
+                    "name": "Rigor"
+                }, 
+                {
+                    "level": 2.03, 
+                    "id": 4, 
+                    "name": "Unix"
+                }, 
+                {
+                    "level": 1.3900000000000001, 
+                    "id": 10, 
+                    "name": "Network & system administration"
+                }, 
+                {
+                    "level": 1.16, 
+                    "id": 2, 
+                    "name": "Imperative programming"
+                }
+            ], 
+            "user": {
+                "last_name": "Berger", 
+                "alumni?": false, 
+                "image": {
+                    "link": "https://cdn.intra.42.fr/users/acded33b910fc3976212240377cf4a41/dylberge.jpg", 
+                    "versions": {
+                        "large": "https://cdn.intra.42.fr/users/26f033730060d042bd0cbaf2948b2976/large_dylberge.jpg", 
+                        "small": "https://cdn.intra.42.fr/users/6bc239bd45ddfbd8e8b5fdc826eb7869/small_dylberge.jpg", 
+                        "medium": "https://cdn.intra.42.fr/users/52d64332d0d89f5f80876a33ffe7d613/medium_dylberge.jpg", 
+                        "micro": "https://cdn.intra.42.fr/users/fdfaa1e61dda4f2b2742615b087ebb93/micro_dylberge.jpg"
+                    }
+                }, 
+                "updated_at": "2024-04-15T14:43:40.434Z", 
+                "pool_month": "march", 
+                "id": 146061, 
+                "first_name": "Dylan", 
+                "location": null, 
+                "usual_first_name": null, 
+                "email": "dylberge@student.s19.be", 
+                "displayname": "Dylan Berger", 
+                "usual_full_name": "Dylan Berger", 
+                "data_erasure_date": "2027-05-14T00:00:00.000+02:00", 
+                "pool_year": "2023", 
+                "active?": true, 
+                "alumnized_at": null, 
+                "phone": "hidden", 
+                "anonymize_date": "2027-05-14T00:00:00.000+02:00", 
+                "kind": "student", 
+                "url": "https://api.intra.42.fr/v2/users/dylberge", 
+                "created_at": "2023-02-20T08:07:08.179Z", 
+                "wallet": 7, 
+                "correction_point": 2, 
+                "staff?": false, 
+                "login": "dylberge"
+            }, 
+            "blackholed_at": "2024-05-14T08:00:00.000Z", 
+            "cursus": {
+                "kind": "main", 
+                "created_at": "2019-07-29T08:45:17.896Z", 
+                "id": 21, 
+                "slug": "42cursus", 
+                "name": "42cursus"
+            }, 
+            "created_at": "2023-03-28T15:28:47.487Z", 
+            "has_coalition": true, 
+            "id": 211965
+        }
+    ], 
+    [
+        {
+            "begin_at": "2023-04-03T08:00:00.000Z", 
+            "level": 3.2, 
+            "grade": "Learner", 
+            "cursus_id": 21, 
+            "updated_at": "2023-04-04T15:37:36.489Z", 
+            "end_at": null, 
+            "skills": [
+                {
+                    "level": 3.13, 
+                    "id": 1, 
+                    "name": "Algorithms & AI"
+                }, 
+                {
+                    "level": 2.9699999999999998, 
+                    "id": 3, 
+                    "name": "Rigor"
+                }, 
+                {
+                    "level": 2.14, 
+                    "id": 4, 
+                    "name": "Unix"
+                }, 
+                {
+                    "level": 1.9, 
+                    "id": 2, 
+                    "name": "Imperative programming"
+                }, 
+                {
+                    "level": 1.56, 
+                    "id": 5, 
+                    "name": "Graphics"
+                }, 
+                {
+                    "level": 1.41, 
+                    "id": 10, 
+                    "name": "Network & system administration"
+                }
+            ], 
+            "user": {
+                "last_name": "S\u00e4inas", 
+                "alumni?": false, 
+                "image": {
+                    "link": "https://cdn.intra.42.fr/users/e03b8694354bac4dadeb8036a5b2eebf/rsainas.jpg", 
+                    "versions": {
+                        "large": "https://cdn.intra.42.fr/users/7ccee67718229d5d1cc9ad105c82e2a4/large_rsainas.jpg", 
+                        "small": "https://cdn.intra.42.fr/users/a3bd4bd458fcb2440ae8b0e1b76e990b/small_rsainas.jpg", 
+                        "medium": "https://cdn.intra.42.fr/users/fff3b1b3136680d8e73c30071915c6eb/medium_rsainas.jpg", 
+                        "micro": "https://cdn.intra.42.fr/users/803102648b0f0536cfb221bac6da0182/micro_rsainas.jpg"
+                    }
+                }, 
+                "updated_at": "2024-05-24T20:52:20.839Z", 
+                "pool_month": "march", 
+                "id": 146051, 
+                "first_name": "Rando", 
+                "location": null, 
+                "usual_first_name": null, 
+                "email": "rsainas@student.s19.be", 
+                "displayname": "Rando S\u00e4inas", 
+                "usual_full_name": "Rando S\u00e4inas", 
+                "data_erasure_date": "2027-05-24T00:00:00.000+02:00", 
+                "pool_year": "2023", 
+                "active?": true, 
+                "alumnized_at": null, 
+                "phone": "hidden", 
+                "anonymize_date": "2027-05-24T00:00:00.000+02:00", 
+                "kind": "student", 
+                "url": "https://api.intra.42.fr/v2/users/rsainas", 
+                "created_at": "2023-02-20T08:00:27.224Z", 
+                "wallet": 37, 
+                "correction_point": 14, 
+                "staff?": false, 
+                "login": "rsainas"
+            }, 
+            "blackholed_at": "2024-05-29T08:00:00.000Z", 
+            "cursus": {
+                "kind": "main", 
+                "created_at": "2019-07-29T08:45:17.896Z", 
+                "id": 21, 
+                "slug": "42cursus", 
+                "name": "42cursus"
+            }, 
+            "created_at": "2023-04-04T15:32:02.024Z", 
+            "has_coalition": true, 
+            "id": 213635
+        }
+    ], 
+    [
+        {
+            "begin_at": "2023-04-03T08:00:00.000Z", 
+            "level": 3.73, 
+            "grade": "Learner", 
+            "cursus_id": 21, 
+            "updated_at": "2023-03-28T14:57:11.880Z", 
+            "end_at": null, 
+            "skills": [
+                {
+                    "level": 3.44, 
+                    "id": 3, 
+                    "name": "Rigor"
+                }, 
+                {
+                    "level": 3.27, 
+                    "id": 2, 
+                    "name": "Imperative programming"
+                }, 
+                {
+                    "level": 3.14, 
+                    "id": 1, 
+                    "name": "Algorithms & AI"
+                }, 
+                {
+                    "level": 2.69, 
+                    "id": 4, 
+                    "name": "Unix"
+                }, 
+                {
+                    "level": 1.56, 
+                    "id": 5, 
+                    "name": "Graphics"
+                }, 
+                {
+                    "level": 1.33, 
+                    "id": 10, 
+                    "name": "Network & system administration"
+                }
+            ], 
+            "user": {
+                "last_name": "Dumortier", 
+                "alumni?": false, 
+                "image": {
+                    "link": "https://cdn.intra.42.fr/users/2b5de56eb63b6c1cfc8d2ee868eb0c92/gdumorti.jpg", 
+                    "versions": {
+                        "large": "https://cdn.intra.42.fr/users/f5e160d6f44586e960eddcaea384190e/large_gdumorti.jpg", 
+                        "small": "https://cdn.intra.42.fr/users/ccab24c7210dda604149d6c4c1e611f7/small_gdumorti.jpg", 
+                        "medium": "https://cdn.intra.42.fr/users/864109b563fb6ea0b52c359aead2ffaf/medium_gdumorti.jpg", 
+                        "micro": "https://cdn.intra.42.fr/users/97646a7d443c351f49dc2f212c16ca38/micro_gdumorti.jpg"
+                    }
+                }, 
+                "updated_at": "2024-03-27T17:28:24.290Z", 
+                "pool_month": "march", 
+                "id": 146039, 
+                "first_name": "Gatien", 
+                "location": null, 
+                "usual_first_name": null, 
+                "email": "gdumorti@student.s19.be", 
+                "displayname": "Gatien Dumortier", 
+                "usual_full_name": "Gatien Dumortier", 
+                "data_erasure_date": "2027-05-24T00:00:00.000+02:00", 
+                "pool_year": "2023", 
+                "active?": true, 
+                "alumnized_at": null, 
+                "phone": "hidden", 
+                "anonymize_date": "2027-05-24T00:00:00.000+02:00", 
+                "kind": "student", 
+                "url": "https://api.intra.42.fr/v2/users/gdumorti", 
+                "created_at": "2023-02-20T07:39:25.853Z", 
+                "wallet": 15, 
+                "correction_point": 2, 
+                "staff?": false, 
+                "login": "gdumorti"
+            }, 
+            "blackholed_at": "2024-05-11T08:00:00.000Z", 
+            "cursus": {
+                "kind": "main", 
+                "created_at": "2019-07-29T08:45:17.896Z", 
+                "id": 21, 
+                "slug": "42cursus", 
+                "name": "42cursus"
+            }, 
+            "created_at": "2023-03-28T14:57:11.880Z", 
+            "has_coalition": true, 
+            "id": 211962
+        }
+    ], 
+    [
+        {
+            "begin_at": "2023-04-03T08:00:00.000Z", 
+            "level": 3.8, 
+            "grade": "Learner", 
+            "cursus_id": 21, 
+            "updated_at": "2023-03-28T20:46:37.544Z", 
+            "end_at": null, 
+            "skills": [
+                {
+                    "level": 3.6, 
+                    "id": 2, 
+                    "name": "Imperative programming"
+                }, 
+                {
+                    "level": 3.21, 
+                    "id": 1, 
+                    "name": "Algorithms & AI"
+                }, 
+                {
+                    "level": 3.19, 
+                    "id": 3, 
+                    "name": "Rigor"
+                }, 
+                {
+                    "level": 2.67, 
+                    "id": 4, 
+                    "name": "Unix"
+                }, 
+                {
+                    "level": 1.63, 
+                    "id": 5, 
+                    "name": "Graphics"
+                }, 
+                {
+                    "level": 1.47, 
+                    "id": 10, 
+                    "name": "Network & system administration"
+                }
+            ], 
+            "user": {
+                "last_name": "Abbadi", 
+                "alumni?": false, 
+                "image": {
+                    "link": "https://cdn.intra.42.fr/users/df09076709127c513ca2e2fa4c15fb2b/mabbadi.jpg", 
+                    "versions": {
+                        "large": "https://cdn.intra.42.fr/users/8cea06779c9d25b820adb492dc533d16/large_mabbadi.jpg", 
+                        "small": "https://cdn.intra.42.fr/users/19f02ea636a31aab70318a5e082bbedd/small_mabbadi.jpg", 
+                        "medium": "https://cdn.intra.42.fr/users/a8996f96a0892f5c418969effe6bf036/medium_mabbadi.jpg", 
+                        "micro": "https://cdn.intra.42.fr/users/791aadbe2ce8731210fa929067189450/micro_mabbadi.jpg"
+                    }
+                }, 
+                "updated_at": "2024-05-27T08:51:48.417Z", 
+                "pool_month": "march", 
+                "id": 146057, 
+                "first_name": "Mehdi", 
+                "location": "shi-r8-p5", 
+                "usual_first_name": null, 
+                "email": "mabbadi@student.s19.be", 
+                "displayname": "Mehdi Abbadi", 
+                "usual_full_name": "Mehdi Abbadi", 
+                "data_erasure_date": "2027-05-24T00:00:00.000+02:00", 
+                "pool_year": "2023", 
+                "active?": true, 
+                "alumnized_at": null, 
+                "phone": "hidden", 
+                "anonymize_date": "2027-05-24T00:00:00.000+02:00", 
+                "kind": "student", 
+                "url": "https://api.intra.42.fr/v2/users/mabbadi", 
+                "created_at": "2023-02-20T08:04:53.964Z", 
+                "wallet": 67, 
+                "correction_point": 12, 
+                "staff?": false, 
+                "login": "mabbadi"
+            }, 
+            "blackholed_at": "2024-05-04T08:00:00.000Z", 
+            "cursus": {
+                "kind": "main", 
+                "created_at": "2019-07-29T08:45:17.896Z", 
+                "id": 21, 
+                "slug": "42cursus", 
+                "name": "42cursus"
+            }, 
+            "created_at": "2023-03-28T20:46:37.544Z", 
+            "has_coalition": true, 
+            "id": 211975
+        }
+    ], 
+    [
+        {
+            "begin_at": "2023-04-03T07:00:00.000Z", 
+            "level": 3.8, 
+            "grade": "Learner", 
+            "cursus_id": 21, 
+            "updated_at": "2024-04-02T09:15:16.341Z", 
+            "end_at": null, 
+            "skills": [
+                {
+                    "level": 3.5, 
+                    "id": 3, 
+                    "name": "Rigor"
+                }, 
+                {
+                    "level": 3.29, 
+                    "id": 2, 
+                    "name": "Imperative programming"
+                }, 
+                {
+                    "level": 3.2, 
+                    "id": 1, 
+                    "name": "Algorithms & AI"
+                }, 
+                {
+                    "level": 2.81, 
+                    "id": 4, 
+                    "name": "Unix"
+                }, 
+                {
+                    "level": 1.5899999999999999, 
+                    "id": 5, 
+                    "name": "Graphics"
+                }, 
+                {
+                    "level": 1.35, 
+                    "id": 10, 
+                    "name": "Network & system administration"
+                }
+            ], 
+            "user": {
+                "last_name": "Sarana", 
+                "alumni?": false, 
+                "image": {
+                    "link": "https://cdn.intra.42.fr/users/9cb522c3507cdd9fe15a314628ccb474/vsarana.jpg", 
+                    "versions": {
+                        "large": "https://cdn.intra.42.fr/users/bdd6c833a992fafa212605a9b727a8d9/large_vsarana.jpg", 
+                        "small": "https://cdn.intra.42.fr/users/eeaae8f810b64b69c57037b5d70c2fad/small_vsarana.jpg", 
+                        "medium": "https://cdn.intra.42.fr/users/49db5f804e5fe979e12eec3c630ddf43/medium_vsarana.jpg", 
+                        "micro": "https://cdn.intra.42.fr/users/cf87fbcc23aeb78c0cb453731a4009c0/micro_vsarana.jpg"
+                    }
+                }, 
+                "updated_at": "2024-05-26T19:17:21.314Z", 
+                "pool_month": "march", 
+                "id": 146050, 
+                "first_name": "Vladyslav", 
+                "location": null, 
+                "usual_first_name": null, 
+                "email": "vsarana@student.s19.be", 
+                "displayname": "Vladyslav Sarana", 
+                "usual_full_name": "Vladyslav Sarana", 
+                "data_erasure_date": "2027-05-24T00:00:00.000+02:00", 
+                "pool_year": "2023", 
+                "active?": true, 
+                "alumnized_at": null, 
+                "phone": "hidden", 
+                "anonymize_date": "2027-05-24T00:00:00.000+02:00", 
+                "kind": "student", 
+                "url": "https://api.intra.42.fr/v2/users/vsarana", 
+                "created_at": "2023-02-20T07:59:33.299Z", 
+                "wallet": 45, 
+                "correction_point": 17, 
+                "staff?": false, 
+                "login": "vsarana"
+            }, 
+            "blackholed_at": "2024-04-25T07:00:00.000Z", 
+            "cursus": {
+                "kind": "main", 
+                "created_at": "2019-07-29T08:45:17.896Z", 
+                "id": 21, 
+                "slug": "42cursus", 
+                "name": "42cursus"
+            }, 
+            "created_at": "2023-03-29T22:02:25.952Z", 
+            "has_coalition": true, 
+            "id": 212225
+        }
+    ], 
+    [
+        {
+            "begin_at": "2023-04-03T07:00:00.000Z", 
+            "level": 3.82, 
+            "grade": "Learner", 
+            "cursus_id": 21, 
+            "updated_at": "2023-04-03T06:54:54.453Z", 
+            "end_at": null, 
+            "skills": [
+                {
+                    "level": 3.66, 
+                    "id": 3, 
+                    "name": "Rigor"
+                }, 
+                {
+                    "level": 3.41, 
+                    "id": 1, 
+                    "name": "Algorithms & AI"
+                }, 
+                {
+                    "level": 3.05, 
+                    "id": 2, 
+                    "name": "Imperative programming"
+                }, 
+                {
+                    "level": 2.8, 
+                    "id": 4, 
+                    "name": "Unix"
+                }, 
+                {
+                    "level": 1.47, 
+                    "id": 10, 
+                    "name": "Network & system administration"
+                }, 
+                {
+                    "level": 1.35, 
+                    "id": 5, 
+                    "name": "Graphics"
+                }
+            ], 
+            "user": {
+                "last_name": "Pryce", 
+                "alumni?": false, 
+                "image": {
+                    "link": "https://cdn.intra.42.fr/users/57c8c4f2ecca3c48f183578e69634394/aapryce.jpeg", 
+                    "versions": {
+                        "large": "https://cdn.intra.42.fr/users/c8784e536cd897451e4f5a8ef6c06726/large_aapryce.jpeg", 
+                        "small": "https://cdn.intra.42.fr/users/3aab042ad503b22b5176915ddac58e4d/small_aapryce.jpeg", 
+                        "medium": "https://cdn.intra.42.fr/users/7a437ac6213f4c0fb0d34f583cabf240/medium_aapryce.jpeg", 
+                        "micro": "https://cdn.intra.42.fr/users/7d8245b545be8885fc2acda833c48ad3/micro_aapryce.jpeg"
+                    }
+                }, 
+                "updated_at": "2024-05-27T08:35:20.338Z", 
+                "pool_month": "march", 
+                "id": 145795, 
+                "first_name": "Aaron", 
+                "location": "a2-r7-p1", 
+                "usual_first_name": null, 
+                "email": "aapryce@student.s19.be", 
+                "displayname": "Aaron Pryce", 
+                "usual_full_name": "Aaron Pryce", 
+                "data_erasure_date": "2027-05-27T00:00:00.000+02:00", 
+                "pool_year": "2023", 
+                "active?": true, 
+                "alumnized_at": null, 
+                "phone": "hidden", 
+                "anonymize_date": "2027-05-27T00:00:00.000+02:00", 
+                "kind": "student", 
+                "url": "https://api.intra.42.fr/v2/users/aapryce", 
+                "created_at": "2023-02-17T14:03:32.587Z", 
+                "wallet": 40, 
+                "correction_point": 2, 
+                "staff?": false, 
+                "login": "aapryce"
+            }, 
+            "blackholed_at": "2024-06-08T07:00:00.000Z", 
+            "cursus": {
+                "kind": "main", 
+                "created_at": "2019-07-29T08:45:17.896Z", 
+                "id": 21, 
+                "slug": "42cursus", 
+                "name": "42cursus"
+            }, 
+            "created_at": "2023-03-28T14:45:00.335Z", 
+            "has_coalition": true, 
+            "id": 211958
+        }
+    ], 
+    [
+        {
+            "begin_at": "2023-04-03T07:00:00.000Z", 
+            "level": 4.08, 
+            "grade": "Learner", 
+            "cursus_id": 21, 
+            "updated_at": "2023-04-03T06:57:12.715Z", 
+            "end_at": null, 
+            "skills": [
+                {
+                    "level": 3.99, 
+                    "id": 2, 
+                    "name": "Imperative programming"
+                }, 
+                {
+                    "level": 3.95, 
+                    "id": 3, 
+                    "name": "Rigor"
+                }, 
+                {
+                    "level": 3.18, 
+                    "id": 4, 
+                    "name": "Unix"
+                }, 
+                {
+                    "level": 3.15, 
+                    "id": 1, 
+                    "name": "Algorithms & AI"
+                }, 
+                {
+                    "level": 1.46, 
+                    "id": 5, 
+                    "name": "Graphics"
+                }, 
+                {
+                    "level": 1.33, 
+                    "id": 10, 
+                    "name": "Network & system administration"
+                }
+            ], 
+            "user": {
+                "last_name": "Hoppenbrouwers", 
+                "alumni?": false, 
+                "image": {
+                    "link": "https://cdn.intra.42.fr/users/f0ed33c2ce2f8e590958e9aa677fa392/dhoppenb.jpg", 
+                    "versions": {
+                        "large": "https://cdn.intra.42.fr/users/fe1359c70cbba3782d97d6e47833c6a3/large_dhoppenb.jpg", 
+                        "small": "https://cdn.intra.42.fr/users/3b913024324c099e600bb30e678509d1/small_dhoppenb.jpg", 
+                        "medium": "https://cdn.intra.42.fr/users/6b5a3517956c5a05c616bc9df81a3896/medium_dhoppenb.jpg", 
+                        "micro": "https://cdn.intra.42.fr/users/d301662834e55c14eb47d4589764349b/micro_dhoppenb.jpg"
+                    }
+                }, 
+                "updated_at": "2024-05-07T11:07:19.646Z", 
+                "pool_month": "march", 
+                "id": 145801, 
+                "first_name": "David", 
+                "location": null, 
+                "usual_first_name": null, 
+                "email": "dhoppenb@student.s19.be", 
+                "displayname": "David Hoppenbrouwers", 
+                "usual_full_name": "David Hoppenbrouwers", 
+                "data_erasure_date": "2027-05-21T00:00:00.000+02:00", 
+                "pool_year": "2023", 
+                "active?": true, 
+                "alumnized_at": null, 
+                "phone": "hidden", 
+                "anonymize_date": "2027-05-21T00:00:00.000+02:00", 
+                "kind": "student", 
+                "url": "https://api.intra.42.fr/v2/users/dhoppenb", 
+                "created_at": "2023-02-17T14:10:26.521Z", 
+                "wallet": 40, 
+                "correction_point": 6, 
+                "staff?": false, 
+                "login": "dhoppenb"
+            }, 
+            "blackholed_at": "2024-06-09T07:00:00.000Z", 
+            "cursus": {
+                "kind": "main", 
+                "created_at": "2019-07-29T08:45:17.896Z", 
+                "id": 21, 
+                "slug": "42cursus", 
+                "name": "42cursus"
+            }, 
+            "created_at": "2023-04-01T21:48:14.259Z", 
+            "has_coalition": true, 
+            "id": 213198
+        }
+    ], 
+    [
+        {
+            "begin_at": "2023-04-03T07:00:00.000Z", 
+            "level": 4.09, 
+            "grade": "Learner", 
+            "cursus_id": 21, 
+            "updated_at": "2023-04-03T06:56:44.377Z", 
+            "end_at": null, 
+            "skills": [
+                {
+                    "level": 4.01, 
+                    "id": 2, 
+                    "name": "Imperative programming"
+                }, 
+                {
+                    "level": 3.9, 
+                    "id": 3, 
+                    "name": "Rigor"
+                }, 
+                {
+                    "level": 3.23, 
+                    "id": 1, 
+                    "name": "Algorithms & AI"
+                }, 
+                {
+                    "level": 3.14, 
+                    "id": 4, 
+                    "name": "Unix"
+                }, 
+                {
+                    "level": 1.63, 
+                    "id": 5, 
+                    "name": "Graphics"
+                }, 
+                {
+                    "level": 1.35, 
+                    "id": 10, 
+                    "name": "Network & system administration"
+                }
+            ], 
+            "user": {
+                "last_name": "Dreesen", 
+                "alumni?": false, 
+                "image": {
+                    "link": "https://cdn.intra.42.fr/users/000bd811e3926ca2a8623263d44b0df0/mdreesen.jpg", 
+                    "versions": {
+                        "large": "https://cdn.intra.42.fr/users/a79e310265714198af327324b6cca1cb/large_mdreesen.jpg", 
+                        "small": "https://cdn.intra.42.fr/users/206775f7eb426fbe993473c34fbfa827/small_mdreesen.jpg", 
+                        "medium": "https://cdn.intra.42.fr/users/08d8ade6971158c93a47514ac27e72f4/medium_mdreesen.jpg", 
+                        "micro": "https://cdn.intra.42.fr/users/ffe7402962395223aef9d31293163c58/micro_mdreesen.jpg"
+                    }
+                }, 
+                "updated_at": "2024-05-24T14:03:10.634Z", 
+                "pool_month": "march", 
+                "id": 145787, 
+                "first_name": "Matias", 
+                "location": null, 
+                "usual_first_name": null, 
+                "email": "mdreesen@student.s19.be", 
+                "displayname": "Matias Dreesen", 
+                "usual_full_name": "Matias Dreesen", 
+                "data_erasure_date": "2027-05-24T00:00:00.000+02:00", 
+                "pool_year": "2023", 
+                "active?": true, 
+                "alumnized_at": null, 
+                "phone": "hidden", 
+                "anonymize_date": "2027-05-24T00:00:00.000+02:00", 
+                "kind": "student", 
+                "url": "https://api.intra.42.fr/v2/users/mdreesen", 
+                "created_at": "2023-02-17T13:28:26.334Z", 
+                "wallet": 45, 
+                "correction_point": 3, 
+                "staff?": false, 
+                "login": "mdreesen"
+            }, 
+            "blackholed_at": "2024-07-20T07:00:00.000Z", 
+            "cursus": {
+                "kind": "main", 
+                "created_at": "2019-07-29T08:45:17.896Z", 
+                "id": 21, 
+                "slug": "42cursus", 
+                "name": "42cursus"
+            }, 
+            "created_at": "2023-03-29T15:05:49.782Z", 
+            "has_coalition": true, 
+            "id": 212018
+        }
+    ], 
+    [
+        {
+            "begin_at": "2023-04-03T07:00:00.000Z", 
+            "level": 4.34, 
+            "grade": "Learner", 
+            "cursus_id": 21, 
+            "updated_at": "2023-04-03T06:55:10.091Z", 
+            "end_at": null, 
+            "skills": [
+                {
+                    "level": 4.22, 
+                    "id": 3, 
+                    "name": "Rigor"
+                }, 
+                {
+                    "level": 3.87, 
+                    "id": 2, 
+                    "name": "Imperative programming"
+                }, 
+                {
+                    "level": 3.66, 
+                    "id": 1, 
+                    "name": "Algorithms & AI"
+                }, 
+                {
+                    "level": 3.37, 
+                    "id": 10, 
+                    "name": "Network & system administration"
+                }, 
+                {
+                    "level": 3.27, 
+                    "id": 4, 
+                    "name": "Unix"
+                }, 
+                {
+                    "level": 1.35, 
+                    "id": 5, 
+                    "name": "Graphics"
+                }
+            ], 
+            "user": {
+                "last_name": "Bouwen", 
+                "alumni?": false, 
+                "image": {
+                    "link": "https://cdn.intra.42.fr/users/5ad4d9b235b5c1d9409f88529b891953/cbouwen.jpg", 
+                    "versions": {
+                        "large": "https://cdn.intra.42.fr/users/4c16d21471e1f4c403c51355e88ff904/large_cbouwen.jpg", 
+                        "small": "https://cdn.intra.42.fr/users/0cd323cdd04b7a0e1008b0ab0ac43235/small_cbouwen.jpg", 
+                        "medium": "https://cdn.intra.42.fr/users/a5a10c43f8b35004d58be39570b398bd/medium_cbouwen.jpg", 
+                        "micro": "https://cdn.intra.42.fr/users/74630a4e5575b50c248f302835fa2bff/micro_cbouwen.jpg"
+                    }
+                }, 
+                "updated_at": "2024-05-17T13:33:50.109Z", 
+                "pool_month": "march", 
+                "id": 146043, 
+                "first_name": "Cedric", 
+                "location": null, 
+                "usual_first_name": null, 
+                "email": "cbouwen@student.s19.be", 
+                "displayname": "Cedric Bouwen", 
+                "usual_full_name": "Cedric Bouwen", 
+                "data_erasure_date": "2027-05-15T00:00:00.000+02:00", 
+                "pool_year": "2023", 
+                "active?": true, 
+                "alumnized_at": null, 
+                "phone": "hidden", 
+                "anonymize_date": "2027-05-15T00:00:00.000+02:00", 
+                "kind": "student", 
+                "url": "https://api.intra.42.fr/v2/users/cbouwen", 
+                "created_at": "2023-02-20T07:55:03.046Z", 
+                "wallet": 40, 
+                "correction_point": 19, 
+                "staff?": false, 
+                "login": "cbouwen"
+            }, 
+            "blackholed_at": "2024-07-28T07:00:00.000Z", 
+            "cursus": {
+                "kind": "main", 
+                "created_at": "2019-07-29T08:45:17.896Z", 
+                "id": 21, 
+                "slug": "42cursus", 
+                "name": "42cursus"
+            }, 
+            "created_at": "2023-03-28T14:56:49.108Z", 
+            "has_coalition": true, 
+            "id": 211961
+        }
+    ], 
+    [
+        {
+            "begin_at": "2023-04-03T07:00:00.000Z", 
+            "level": 4.46, 
+            "grade": "Learner", 
+            "cursus_id": 21, 
+            "updated_at": "2023-04-03T06:55:30.938Z", 
+            "end_at": null, 
+            "skills": [
+                {
+                    "level": 4.34, 
+                    "id": 3, 
+                    "name": "Rigor"
+                }, 
+                {
+                    "level": 4.14, 
+                    "id": 2, 
+                    "name": "Imperative programming"
+                }, 
+                {
+                    "level": 4.03, 
+                    "id": 1, 
+                    "name": "Algorithms & AI"
+                }, 
+                {
+                    "level": 3.19, 
+                    "id": 4, 
+                    "name": "Unix"
+                }, 
+                {
+                    "level": 3.17, 
+                    "id": 5, 
+                    "name": "Graphics"
+                }, 
+                {
+                    "level": 1.3, 
+                    "id": 10, 
+                    "name": "Network & system administration"
+                }
+            ], 
+            "user": {
+                "last_name": "Devriese", 
+                "alumni?": false, 
+                "image": {
+                    "link": "https://cdn.intra.42.fr/users/28c15d410d24decb990f2f1c06ecab3d/wdevries.jpg", 
+                    "versions": {
+                        "large": "https://cdn.intra.42.fr/users/a9111cfe720af574f1c526a3040e547d/large_wdevries.jpg", 
+                        "small": "https://cdn.intra.42.fr/users/1a5aed74222fcd2c0e1d1a97f7713b1d/small_wdevries.jpg", 
+                        "medium": "https://cdn.intra.42.fr/users/4389fcda2c7c84c31dd554737e0d0bfd/medium_wdevries.jpg", 
+                        "micro": "https://cdn.intra.42.fr/users/eb6c1b75a660c928fed583b0f04f4eeb/micro_wdevries.jpg"
+                    }
+                }, 
+                "updated_at": "2024-05-23T15:21:02.635Z", 
+                "pool_month": "march", 
+                "id": 146060, 
+                "first_name": "Warre", 
+                "location": null, 
+                "usual_first_name": null, 
+                "email": "wdevries@student.s19.be", 
+                "displayname": "Warre Devriese", 
+                "usual_full_name": "Warre Devriese", 
+                "data_erasure_date": "2027-05-26T00:00:00.000+02:00", 
+                "pool_year": "2023", 
+                "active?": true, 
+                "alumnized_at": null, 
+                "phone": "hidden", 
+                "anonymize_date": "2027-05-26T00:00:00.000+02:00", 
+                "kind": "student", 
+                "url": "https://api.intra.42.fr/v2/users/wdevries", 
+                "created_at": "2023-02-20T08:06:42.074Z", 
+                "wallet": 36, 
+                "correction_point": 5, 
+                "staff?": false, 
+                "login": "wdevries"
+            }, 
+            "blackholed_at": "2024-06-07T07:00:00.000Z", 
+            "cursus": {
+                "kind": "main", 
+                "created_at": "2019-07-29T08:45:17.896Z", 
+                "id": 21, 
+                "slug": "42cursus", 
+                "name": "42cursus"
+            }, 
+            "created_at": "2023-03-28T14:58:45.149Z", 
+            "has_coalition": true, 
+            "id": 211963
+        }
+    ], 
+    [
+        {
+            "begin_at": "2023-04-03T08:00:00.000Z", 
+            "level": 4.57, 
+            "grade": "Learner", 
+            "cursus_id": 21, 
+            "updated_at": "2023-03-28T14:47:06.139Z", 
+            "end_at": null, 
+            "skills": [
+                {
+                    "level": 4.31, 
+                    "id": 3, 
+                    "name": "Rigor"
+                }, 
+                {
+                    "level": 4.27, 
+                    "id": 2, 
+                    "name": "Imperative programming"
+                }, 
+                {
+                    "level": 3.76, 
+                    "id": 1, 
+                    "name": "Algorithms & AI"
+                }, 
+                {
+                    "level": 3.34, 
+                    "id": 10, 
+                    "name": "Network & system administration"
+                }, 
+                {
+                    "level": 3.17, 
+                    "id": 5, 
+                    "name": "Graphics"
+                }, 
+                {
+                    "level": 3.07, 
+                    "id": 4, 
+                    "name": "Unix"
+                }
+            ], 
+            "user": {
+                "last_name": "Baccari", 
+                "alumni?": false, 
+                "image": {
+                    "link": "https://cdn.intra.42.fr/users/22b5b4fa53024626da5eed1805d17a07/abaccari.jpg", 
+                    "versions": {
+                        "large": "https://cdn.intra.42.fr/users/56a7254a22855ce667432a995d39bf1e/large_abaccari.jpg", 
+                        "small": "https://cdn.intra.42.fr/users/0ce382b83c051692398677a1e8b8a22a/small_abaccari.jpg", 
+                        "medium": "https://cdn.intra.42.fr/users/62246de84431238f4508f87bb1a89718/medium_abaccari.jpg", 
+                        "micro": "https://cdn.intra.42.fr/users/9dc256436099d34503905c1052aafba2/micro_abaccari.jpg"
+                    }
+                }, 
+                "updated_at": "2024-05-24T15:15:48.731Z", 
+                "pool_month": "march", 
+                "id": 145810, 
+                "first_name": "Anis", 
+                "location": null, 
+                "usual_first_name": null, 
+                "email": "abaccari@student.s19.be", 
+                "displayname": "Anis Baccari", 
+                "usual_full_name": "Anis Baccari", 
+                "data_erasure_date": "2027-05-23T00:00:00.000+02:00", 
+                "pool_year": "2023", 
+                "active?": true, 
+                "alumnized_at": null, 
+                "phone": "hidden", 
+                "anonymize_date": "2027-05-23T00:00:00.000+02:00", 
+                "kind": "student", 
+                "url": "https://api.intra.42.fr/v2/users/abaccari", 
+                "created_at": "2023-02-17T14:53:49.796Z", 
+                "wallet": 81, 
+                "correction_point": 13, 
+                "staff?": false, 
+                "login": "abaccari"
+            }, 
+            "blackholed_at": "2024-05-28T08:00:00.000Z", 
+            "cursus": {
+                "kind": "main", 
+                "created_at": "2019-07-29T08:45:17.896Z", 
+                "id": 21, 
+                "slug": "42cursus", 
+                "name": "42cursus"
+            }, 
+            "created_at": "2023-03-28T14:47:06.139Z", 
+            "has_coalition": true, 
+            "id": 211959
+        }
+    ], 
+    [
+        {
+            "begin_at": "2023-04-03T07:00:00.000Z", 
+            "level": 5.19, 
+            "grade": "Learner", 
+            "cursus_id": 21, 
+            "updated_at": "2023-04-03T06:48:32.876Z", 
+            "end_at": null, 
+            "skills": [
+                {
+                    "level": 4.84, 
+                    "id": 3, 
+                    "name": "Rigor"
+                }, 
+                {
+                    "level": 4.65, 
+                    "id": 2, 
+                    "name": "Imperative programming"
+                }, 
+                {
+                    "level": 4.11, 
+                    "id": 17, 
+                    "name": "Object-oriented programming"
+                }, 
+                {
+                    "level": 4.0, 
+                    "id": 1, 
+                    "name": "Algorithms & AI"
+                }, 
+                {
+                    "level": 3.35, 
+                    "id": 10, 
+                    "name": "Network & system administration"
+                }, 
+                {
+                    "level": 3.23, 
+                    "id": 5, 
+                    "name": "Graphics"
+                }, 
+                {
+                    "level": 3.19, 
+                    "id": 4, 
+                    "name": "Unix"
+                }
+            ], 
+            "user": {
+                "last_name": "Denissen", 
+                "alumni?": false, 
+                "image": {
+                    "link": "https://cdn.intra.42.fr/users/e078826447572d61d5468fe5392cc127/vdenisse.jpg", 
+                    "versions": {
+                        "large": "https://cdn.intra.42.fr/users/79cd8cec3303c843c6c64db8c34da8cb/large_vdenisse.jpg", 
+                        "small": "https://cdn.intra.42.fr/users/133650f94d609f3dd8c4a3d124e951a5/small_vdenisse.jpg", 
+                        "medium": "https://cdn.intra.42.fr/users/3570967d5eb587dd6f766d49ae02e9ea/medium_vdenisse.jpg", 
+                        "micro": "https://cdn.intra.42.fr/users/b02da9380448967ea953942666851106/micro_vdenisse.jpg"
+                    }
+                }, 
+                "updated_at": "2024-05-27T07:43:20.815Z", 
+                "pool_month": "march", 
+                "id": 145793, 
+                "first_name": "Victor", 
+                "location": "a2-r4-p5", 
+                "usual_first_name": null, 
+                "email": "vdenisse@student.s19.be", 
+                "displayname": "Victor Denissen", 
+                "usual_full_name": "Victor Denissen", 
+                "data_erasure_date": "2027-05-27T00:00:00.000+02:00", 
+                "pool_year": "2023", 
+                "active?": true, 
+                "alumnized_at": null, 
+                "phone": "hidden", 
+                "anonymize_date": "2027-05-27T00:00:00.000+02:00", 
+                "kind": "student", 
+                "url": "https://api.intra.42.fr/v2/users/vdenisse", 
+                "created_at": "2023-02-17T13:53:18.764Z", 
+                "wallet": 170, 
+                "correction_point": 32, 
+                "staff?": false, 
+                "login": "vdenisse"
+            }, 
+            "blackholed_at": "2024-09-07T07:00:00.000Z", 
+            "cursus": {
+                "kind": "main", 
+                "created_at": "2019-07-29T08:45:17.896Z", 
+                "id": 21, 
+                "slug": "42cursus", 
+                "name": "42cursus"
+            }, 
+            "created_at": "2023-03-28T14:42:19.135Z", 
+            "has_coalition": true, 
+            "id": 211957
+        }
+    ], 
+    [
+        {
+            "begin_at": "2023-04-03T08:00:00.000Z", 
+            "level": 8.0, 
+            "grade": "Learner", 
+            "cursus_id": 21, 
+            "updated_at": "2023-03-28T14:48:32.807Z", 
+            "end_at": null, 
+            "skills": [
+                {
+                    "level": 7.1, 
+                    "id": 10, 
+                    "name": "Network & system administration"
+                }, 
+                {
+                    "level": 6.63, 
+                    "id": 3, 
+                    "name": "Rigor"
+                }, 
+                {
+                    "level": 5.51, 
+                    "id": 17, 
+                    "name": "Object-oriented programming"
+                }, 
+                {
+                    "level": 4.9399999999999995, 
+                    "id": 2, 
+                    "name": "Imperative programming"
+                }, 
+                {
+                    "level": 4.32, 
+                    "id": 4, 
+                    "name": "Unix"
+                }, 
+                {
+                    "level": 3.83, 
+                    "id": 1, 
+                    "name": "Algorithms & AI"
+                }, 
+                {
+                    "level": 3.17, 
+                    "id": 5, 
+                    "name": "Graphics"
+                }
+            ], 
+            "user": {
+                "last_name": "Silance", 
+                "alumni?": false, 
+                "image": {
+                    "link": "https://cdn.intra.42.fr/users/904273ef49773f93e17248fa94e609f6/jusilanc.jpg", 
+                    "versions": {
+                        "large": "https://cdn.intra.42.fr/users/b3e7302cace7cc4362e3078492906e8a/large_jusilanc.jpg", 
+                        "small": "https://cdn.intra.42.fr/users/8df290c9d56f4d42f2d7dd27bbfaecb3/small_jusilanc.jpg", 
+                        "medium": "https://cdn.intra.42.fr/users/7f0d278316855521104d35b20c4cc794/medium_jusilanc.jpg", 
+                        "micro": "https://cdn.intra.42.fr/users/ff3eb9ff1461ade6126a5518efa9148d/micro_jusilanc.jpg"
+                    }
+                }, 
+                "updated_at": "2024-05-23T16:07:52.196Z", 
+                "pool_month": "march", 
+                "id": 146045, 
+                "first_name": "Julien", 
+                "location": null, 
+                "usual_first_name": null, 
+                "email": "jusilanc@student.s19.be", 
+                "displayname": "Julien Silance", 
+                "usual_full_name": "Julien Silance", 
+                "data_erasure_date": "2027-05-18T00:00:00.000+02:00", 
+                "pool_year": "2023", 
+                "active?": true, 
+                "alumnized_at": null, 
+                "phone": "hidden", 
+                "anonymize_date": "2027-05-18T00:00:00.000+02:00", 
+                "kind": "student", 
+                "url": "https://api.intra.42.fr/v2/users/jusilanc", 
+                "created_at": "2023-02-20T07:56:35.919Z", 
+                "wallet": 243, 
+                "correction_point": 112, 
+                "staff?": false, 
+                "login": "jusilanc"
+            }, 
+            "blackholed_at": "2025-01-15T09:00:00.000Z", 
+            "cursus": {
+                "kind": "main", 
+                "created_at": "2019-07-29T08:45:17.896Z", 
+                "id": 21, 
+                "slug": "42cursus", 
+                "name": "42cursus"
+            }, 
+            "created_at": "2023-03-28T14:48:32.807Z", 
+            "has_coalition": true, 
+            "id": 211960
+        }
+    ]
+]
